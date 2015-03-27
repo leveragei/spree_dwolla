@@ -16,8 +16,9 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
 
-  s.add_dependency 'rails', '~> 4.1.4'
-  s.add_dependency 'spree_core', '~> 2.4.0.beta'
+  version = '~> 2.4.1 '
+  s.add_dependency 'spree_core', version
+  s.add_dependency 'rails', '~> 4.1.9'
   s.add_dependency 'dwolla-ruby'
 
   s.add_development_dependency 'rspec-rails', '~> 3.0.0'
